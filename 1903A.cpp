@@ -1,6 +1,7 @@
 Codeforces problem link --> https://codeforces.com/problemset/problem/1903/A
   
-File: 1903A.cpp  
+*** Problem name -->  HALLOUMI BOXES --> 1903A.cpp  ****
+  
 Brief description:
 - A solution that reads multiple test cases. For each test case it reads integers n and k and an array of n integers. It prints "YES" if the array can be considered valid under the program's rule and "NO" otherwise.
 - Behavior implemented:
