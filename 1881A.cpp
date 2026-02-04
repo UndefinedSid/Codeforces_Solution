@@ -1,3 +1,4 @@
+// Problem Link --> https://codeforces.com/problemset/problem/1881/A
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -31,25 +32,6 @@ int main(){
             }
         }
         cout << ops << '\n';
-
-    //     bool found=false;
-
-    //     while((int)strX.size() <= 2 * m){
-    //         if(strX.find(strS) != string::npos){
-    //             cout << ops << '\n';
-    //             found=true;
-    //             break;
-    //         }
-    //         strX += strX;
-    //         ops++;
-    //     }
-
-    //     if( ! found){
-    //         if(strX.find(strS) != string::npos)
-    //             cout << ops << "\n";
-    //         else
-    //             cout << -1 << "\n";
-    //     }
 
     }
 
