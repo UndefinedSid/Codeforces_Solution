@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin >> t;
+    while(t--){
+        int n;
+        cin >> n; 
+        
+        map<int, int> freq;
+        for(int i = 0; i < n; i++){
+            int temp;
+            cin >> temp; 
+            freq[temp]++;
+        }
+        
+        if(freq.size() == 1){
+            cout << "Yes" << '\n';
+        } else if(freq.size() == 2){
+            auto it = freq.begin();
+            int a = it->second;
+            int b = (++it)->second;
+            
+            if(abs(a - b) <= 1)
+                cout << "Yes" << '\n';
+            else 
+                cout << "No" << '\n';
+        } else {
+            cout << "No" << '\n';
+        }
+    }
+    return 0;
+}
